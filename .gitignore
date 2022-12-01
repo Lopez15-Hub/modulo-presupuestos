@@ -1,1 +1,2 @@
-** /vendor/
+#Ignore composer libs
+presupuestos_ezequiellopez/inc/vendor
