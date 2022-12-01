@@ -1,0 +1,24 @@
+/*FONTS IMPORTS*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
+/*
+Text classes
+*/
+.gyg-color-primary {
+    color: var(--dark) !important;
+  }
+  .gyg-color-secondary {
+    color: var(--mediumBlue) !important;
+  }
+  .gyg-color-light {
+    color: var(--lightBlue) !important;
+  }
+  .gyg-color-white {
+    color: var(--white) !important;
+  }
+  .gyg-color-mediumgray {
+    color: var(--mediumGray) !important;
+  }
+  .gyg-color-lightgray {
+    color: var(--lightGray) !important;
+  }

@@ -1,0 +1,12 @@
+/*VARIBALES*/
+:root {
+    /*Colores: Gama de Azules*/
+    --primary: #004AAD;
+    --blue-opacity: #90969e93;
+    --dark: #000000 !important;
+    --white: #ffffff !important;
+  
+    /*Fuentes*/
+    --default-font: "Roboto";
+    --secondary-font: "Anton";
+  }

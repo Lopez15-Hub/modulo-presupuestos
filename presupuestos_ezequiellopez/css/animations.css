@@ -1,0 +1,51 @@
+.animation-fade {
+  animation: fadeIn 1s;
+  animation-fill-mode: forwards;
+  transition: 200ms;
+}
+.animation-fade-shadow {
+  animation: fadeInShadow 1s;
+  animation-fill-mode: forwards;
+  transition: 1s;
+}
+.animation-fade-short {
+  animation: fadeIn 500ms;
+  animation-fill-mode: forwards;
+  transition: ease-in 100ms;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 10;
+  }
+}
+@keyframes fadeInShadow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.3;
+  }
+}
+.translateLeftToRight {
+  animation: translateRight 1s;
+  animation-fill-mode: both;
+  transition: ease-in 200ms;
+}
+.translateLeftToRight:active {
+  animation: translateRight 1s;
+  animation-fill-mode: both;
+  transition: ease-out 200ms;
+}
+@keyframes translateRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(-10%);
+  }
+}
